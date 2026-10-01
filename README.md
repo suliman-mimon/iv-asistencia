@@ -15,6 +15,18 @@ El tiempo a pie no importa, ya que las paradas están cerca y si tengo claro qu�
 Solo me interesan los trayectos directos, los transbordos casi nunca me funcionan bien.
 Normalmente, suelo conocer de antemano la hora a la que salir hacia la actividad, ya que suele depender de actividades previas (como la hora que finaliza las clases que tenga ese dia). Pero, me gusta tener un margen de +- 15 min, ya que si me interesa más coger un autobús que sale antes de esa hora, podría salir un poco antes de clase, o si el autobús que me interesa sale un poco más tarde, me puedo quedar terminando alguna tarea en vez de estar esperando el autobus.
 
+## Descripción del dataset
+
+La fuente de datos es el [GTFS estático de los autobuses urbanos de Granada](http://movilidadgranada.org/gtfs/gtfs.zip). Es un archivo ZIP que contiene tablas en formato CSV con las paradas, líneas, viajes y horarios programados para el periodo en curso. 
+
+Los archivos relevantes son:
+- `stops.txt`: las paradas.
+- `routes.txt`: las líneas
+- `trips.txt`: cada viaje de una línea, su dirección y el servicio al que pertenece
+- `stop_times.txt`: cuándo pasa cada viaje por cada parada
+- `calendar.txt`: días de la semana en los que opera cada servicio.
+- `calendar_dates.txt`: añade o elimina servicios en fechas concretas.
+
 ## Material de la actividad
 
 ![Fotografía de la tarjeta del cliente](imagenes/tarjeta-cliente.jpg)
