@@ -2,7 +2,8 @@
 
 ## Descripción del problema
 
-Tengo actividades a lo largo del día para las que le quiero dedicar un tiempo específico, y tras ello quedarme el mínimo tiempo posible. Esas actividades conllevan desplazamientos en autobús: ya sea un desplazamiento de ida y uno de vuelta (ir al gym durante 1h, o ir a la biblioteca durante 2h) o dos desplazamientos que unen tres sitios (uni-comedor-biblioteca para comer durante 30min). No quiero perder tiempo esperando autobuses y no quiero dedicar a la actividad más tiempo del necesario. Podría intentar cuadrarlo yo mismo, pero además de que no me fío de Google Maps, eso me requeriría muchísimo esfuerzo mental cada vez que lo quiera hacer.
+Como estudiantes, los horarios de las clases condicionan las actividades que podemos hacer a lo largo del día. Cuando terminamos una clase y tenemos otra más tarde, a veces queremos ir al gimnasio, comer o realizar otra actividad antes de ir a la siguiente clase (que puede ser en otro campus).
+Muchos estudiantes no disponemos de vehículo propio y utilizamos el autobús para desplazarnos. Sus horarios y las esperas hacen que no siempre sepamos si podremos realizar esa actividad durante el tiempo que necesitamos y llegar puntualmente a la siguiente clase, o si debemos dejarla para otro momento.
 
 ## Especifiación adicional del problema
 
