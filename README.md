@@ -7,10 +7,9 @@ Muchos estudiantes no disponemos de vehículo propio y utilizamos el autobús pa
 
 ## Especifiación adicional del problema
 
-Ya no pienso en los sitios a los que tengo que ir, sino en sus paradas más cercanas.
-El tiempo a pie no importa, ya que las paradas están cerca y si tengo claro qué autobús coger, puedo salir con suficiente antelación, o correr (soy muy de correr). Aunque se puede introducir un pequeño margen adicional al tiempo necesario de la actividad.
-Solo me interesan los trayectos directos, los transbordos casi nunca me funcionan bien.
-Normalmente, suelo conocer de antemano la hora a la que salir hacia la actividad, ya que suele depender de actividades previas (como la hora que finaliza las clases que tenga ese dia). Pero, me gusta tener un margen de +- 15 min, ya que si me interesa más coger un autobús que sale antes de esa hora, podría salir un poco antes de clase, o si el autobús que me interesa sale un poco más tarde, me puedo quedar terminando alguna tarea en vez de estar esperando el autobus.
+Se consideran tres paradas conocidas: la de origen, la del lugar de la actividad intermedia y la de destino. Los dos desplazamientos se realizan en autobús mediante líneas directas, sin transbordos.
+Para una fecha concreta, se establecen una hora a partir de la cual se puede salir del origen, una hora límite de llegada al destino y un tiempo mínimo de estancia intermedia. Ese tiempo se mide entre la llegada del primer autobús y la salida del segundo en la parada intermedia.
+Quedan fuera del alcance los retrasos, la información en tiempo real y los desplazamientos a pie entre las paradas y los lugares de las actividades.
 
 ## Descripción del dataset
 
