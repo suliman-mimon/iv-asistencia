@@ -23,6 +23,18 @@ Los archivos relevantes son:
 - `calendar.txt`: días de la semana en los que opera cada servicio.
 - `calendar_dates.txt`: añade o elimina servicios en fechas concretas.
 
+## Lógica de negocio prevista
+
+Una combinación es válida si cumple estas condiciones:
+
+- El primer viaje sale de la parada de origen a partir de la hora indicada.
+- Entre la llegada a la parada intermedia y la salida del segundo viaje transcurre, al menos, el tiempo mínimo establecido.
+- El segundo viaje llega a la parada de destino antes de la hora límite o justo a esa hora.
+
+Ambos viajes deben operar en la fecha indicada y recorrer las paradas en el orden correcto.
+
+Si ninguna combinación cumple todas las condiciones, la actividad no se puede realizar.
+
 ## Material de la actividad
 
 ![Fotografía de la tarjeta del cliente](imagenes/tarjeta-cliente.jpg)
