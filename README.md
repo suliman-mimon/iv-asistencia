@@ -25,7 +25,7 @@ Los archivos relevantes son:
 
 ## Lógica de negocio prevista
 
-Una combinación es válida si cumple estas condiciones:
+Se determina una combinación de dos viajes en autobús que cumpla estas condiciones:
 
 - El primer viaje sale de la parada de origen a partir de la hora indicada.
 - Entre la llegada a la parada intermedia y la salida del segundo viaje transcurre, al menos, el tiempo mínimo establecido.
